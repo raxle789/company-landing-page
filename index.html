@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Tambahkan script Hammer.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script> -->
+    <!-- Tambahkan library Swiper.js -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <div class="navbar-container">
+          <a class="navbar-brand" href="#">
+            <h1 class="light-logo">team<span class="dot">.</span></h1>
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img class="menu-icon" src="./assets/menu-icon.svg" alt="menu-icon" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link1 link-offset-1" aria-current="page" href="#"
+                >Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1 link-offset-1" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1 link-offset-1" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1 link-offset-1" href="#">Log In</a>
+            </li>
+          </ul>
+          <div>
+            <button type="button" class="btn get-access-button">
+              Get Access
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <img
+        src="./assets/banner.png"
+        alt="banner"
+        class="position-absolute top-0 end-0 banner-image"
+      />
+      <div class="banner-image-container container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h1 class="tagline">Instant collaboration for remote teams</h1>
+            <p class="desc">
+              All-in-one place for your remote team to chat, collaborate and
+              track project progress.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <form action="#" class="sign-up-form d-flex">
+              <div>
+                <input
+                  type="text"
+                  class="form-control form-email"
+                  placeholder="Email"
+                />
+                <img
+                  src="./assets/arrow-form.png"
+                  alt="arrow-form"
+                  class="arrow-form"
+                />
+              </div>
+
+              <input
+                type="submit"
+                class="btn btn-get-early"
+                value="Get Early Access"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mock-Up Section -->
+    <section class="mock-up container-fluid">
+      <div class="row d-flex justify-content-start align-items-center">
+        <div class="col-lg-6">
+          <h1 class="info-mock-up">Chats for your distributed teams</h1>
+          <p class="desc-mock-up">
+            Team combines the immediacy of real-time chat with an email
+            threading model. With Team, you can catch up on important
+            conversations while ignoring irrelevant ones.
+          </p>
+          <a class="link-offset-1 fw-medium" href="#"
+            >Learn More
+            <img
+              src="./assets/arrow-link.png"
+              alt="arrow-link"
+              class="ms-2 arrow-link"
+          /></a>
+        </div>
+        <div class="col-lg-6 overflow-hidden">
+          <img id="mock-up-image" src="./assets/mock-up.png" alt="mock-up" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar UX Section -->
+    <section class="cal-ux container-fluid">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-6 overflow-hidden">
+          <img class="left-image" src="./assets/cal-ux.png" alt="cal-ux" />
+        </div>
+        <div class="col-lg-6 col-md-6 d-flex flex-column align-items-center">
+          <h1 class="info-cal-ux">Chats for your distributed teams</h1>
+          <p class="desc-cal-ux">
+            Team combines the immediacy of real-time chat with an email
+            threading model. With Team, you can catch up on important
+            conversations while ignoring irrelevant ones.
+          </p>
+          <a class="link-offset-1 fw-medium" href="#"
+            >Learn More
+            <img
+              src="./assets/arrow-link.png"
+              alt="arrow-link"
+              class="ms-2 arrow-link"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option UX Section -->
+    <section class="opt-ux container-fluid">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-6 d-flex flex-column align-items-start">
+          <h1 class="info-opt-ux">Choose how you want to work</h1>
+          <p class="desc-opt-ux">
+            In Team, you’ve got all the flexibility to work when, where and how
+            it’s best for you. You can easily chat, send audio and video clips,
+            or hop on a huddle to talk things out live.
+          </p>
+          <a class="link-offset-1 fw-medium" href="#"
+            >Learn More
+            <img
+              src="./assets/arrow-link.png"
+              alt="arrow-link"
+              class="ms-2 arrow-link"
+          /></a>
+        </div>
+        <div class="col-lg-6 col-md-6 overflow-hidden">
+          <img class="right-image" src="./assets/opt-ux.png" alt="opt-ux" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Faster UX Section -->
+    <section class="fas-ux container-fluid">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-6 overflow-hidden">
+          <img class="left-image" src="./assets/fas-ux.png" alt="fas-ux" />
+        </div>
+        <div class="col-lg-6 col-md-6 d-flex flex-column align-items-center">
+          <h1 class="info-fas-ux">Move faster with your Team tools</h1>
+          <p class="desc-fas-ux">
+            With your other work apps connected to Team, you can work faster by
+            switching tabs less. And with powerful tools like Workflow Builder,
+            you can automate away routine tasks.
+          </p>
+          <a class="link-offset-1 fw-medium" href="#"
+            >Learn More
+            <img
+              src="./assets/arrow-link.png"
+              alt="arrow-link"
+              class="ms-2 arrow-link"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial overflow-hidden">
+      <div id="testi-title-container">
+        <h1 class="testi-title fw-bold text-center">
+          What people say about team
+        </h1>
+      </div>
+      <div
+        id="testimonialCarousel"
+        class="carousel slide testi-box container-fluid"
+      >
+        <div
+          id="container-carousel"
+          class="row position-relative carousel-inner"
+        >
+          <div class="col-lg-12 d-flex justify-content-start gap-3">
+            <div class="card-box">
+              <img src="./assets/stars.png" alt="rate stars" />
+              <p>
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div
+                class="person-box d-flex justify-content-start align-items-center gap-2"
+              >
+                <img src="./assets/person1.png" alt="person1" />
+                <div>
+                  <h4>Chelsea Morgan</h4>
+                  <p>CEO at Subway</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <img src="./assets/stars.png" alt="rate stars" />
+              <p>
+                In a laoreet purus. Integer turpis quam, laoreet id orci nec,
+                ultrices lacinia nunc. Aliquam erat volutpat. Curabitur
+                fringilla in purus eget egestas. Etiam quis.
+              </p>
+              <div
+                class="person-box d-flex justify-content-start align-items-center gap-2"
+              >
+                <img src="./assets/person2.png" alt="person2" />
+                <div>
+                  <h4>Nick Cave</h4>
+                  <p>CMO at Nokia</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <img src="./assets/stars.png" alt="rate stars" />
+              <p>
+                Aliquam pulvinar vestibulum blandit. Donec sed nisl libero.
+                Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate
+                quam a quam volutpat, sed ullamcorper erat commodo.
+              </p>
+              <div
+                class="person-box d-flex justify-content-start align-items-center gap-2"
+              >
+                <img src="./assets/person3.png" alt="person3" />
+                <div>
+                  <h4>Lana Rosenfeld</h4>
+                  <p>Senior VP at Pinterest</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <img src="./assets/stars.png" alt="rate stars" />
+              <p>
+                Porta nisl dolor, molestie pellentesque elit molestie in. Morbi
+                metus neque, elementum ullamcorper hendrerit eget, tincidunt et
+                nisi. Sed magna nunc.
+              </p>
+              <div
+                class="person-box d-flex justify-content-start align-items-center gap-2"
+              >
+                <img src="./assets/person4.png" alt="person4" />
+                <div>
+                  <h4>John Doe</h4>
+                  <p>CEO at Samsung</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <img src="./assets/stars.png" alt="rate stars" />
+              <p>
+                Vestibulum eu quam nec neque pellentesque efficitur id eget
+                nisl. Proin porta est convallis lacus blandit pretium sed non
+                enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna
+                bibendum ultricies laoreet.
+              </p>
+              <div
+                class="person-box d-flex justify-content-start align-items-center gap-2"
+              >
+                <img src="./assets/person1.png" alt="person1" />
+                <div>
+                  <h4>Chelsea Morgan</h4>
+                  <p>CEO at Subway</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 arrow-box">
+        <img src="./assets/arrow.png" alt="arrow-prev" class="arrow-prev" />
+        <img src="./assets/arrow.png" alt="arrow-next" class="arrow-next" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-12">
+          <h1 class="ms-5">team<span class="dot">.</span></h1>
+          <p id="desc-comp" class="ms-5 fw-light">
+            Collaboration platform for mordern team
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-4 about-left">
+          <h4 class="fw-normal">Company</h4>
+          <a href="#" class="fw-light d-block mb-3">Product</a>
+          <a href="#" class="fw-light d-block mb-3">Blog</a>
+          <a href="#" class="fw-light d-block">Support</a>
+        </div>
+        <div class="col-lg-2 col-md-4 about-middle">
+          <h4 class="fw-normal">Features</h4>
+          <a href="#" class="fw-light d-block mb-3">Screen Sharing</a>
+          <a href="#" class="fw-light d-block mb-3">iOS & Android Apps</a>
+          <a href="#" class="fw-light d-block mb-3">File Sharing</a>
+          <a href="#" class="fw-light d-block">User Management</a>
+        </div>
+        <div class="col-lg-2 col-md-4 about-right">
+          <h4 class="fw-normal">Contact Us</h4>
+          <p class="fw-light">info@teamapp.com</p>
+          <p class="fw-light">1-800-200-300</p>
+          <p id="address" class="fw-light">
+            1010 Sunset Blv. Palo Alto, California
+          </p>
+        </div>
+        <div id="up-to-date" class="col-lg-3 col-md-12">
+          <h4 class="fw-normal">Stay up to date</h4>
+          <a href="#" class="fw-light d-block mb-2"
+            >Subscribe to our newsletter</a
+          >
+          <form action="#" class="footer-form">
+            <div class="position-relative">
+              <input
+                type="text"
+                class="form-control footer-form"
+                placeholder="Email"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                />
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <p id="copyright" class="fw-light">&copy; Copyright Team Inc.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
