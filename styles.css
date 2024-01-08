@@ -647,8 +647,8 @@ footer svg {
     margin-left: -48px;
   }
   #up-to-date {
-    margin-top: 50px;
-    margin-left: 48px;
+    padding-top: 50px;
+    padding-left: 48px;
   }
   #address {
     width: 160px;
@@ -821,7 +821,6 @@ footer svg {
   .info-cal-ux {
     margin-top: 70px;
     margin-left: -10%;
-    /* margin-left: -13px; */
     margin-bottom: 25px;
     font-size: 37px;
     font-weight: 700;
@@ -962,24 +961,24 @@ footer svg {
     margin-bottom: 65px;
   }
   .about-left {
-    margin-left: 28px;
-    margin-bottom: 60px;
+    padding-left: 28px;
+    padding-bottom: 60px;
   }
   .about-middle {
-    margin-left: 25px;
-    margin-bottom: 60px;
+    padding-left: 25px;
+    padding-bottom: 60px;
   }
   .about-right {
-    margin-left: 25px;
-    margin-bottom: 60px;
+    padding-left: 25px;
+    padding-bottom: 60px;
   }
   #address {
     width: 160px;
   }
   #up-to-date {
-    margin-top: 0px;
-    margin-left: 28px;
-    margin-bottom: 60px;
+    padding-top: 0px;
+    padding-left: 28px;
+    padding-bottom: 60px;
   }
   #copyright {
     margin-top: 60px;
